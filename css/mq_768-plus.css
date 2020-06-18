@@ -1,0 +1,170 @@
+/*-------------------------------------------------*/
+/* NAV ------------------------------------------ */
+/*-----------------------------------------------*/
+
+nav {width: 500px;}
+
+.nav-menu {
+    display: flex;
+    height: 100%;
+    margin-right: 1rem;
+    justify-content: flex-end;
+    background: none;
+    position: static;
+}
+
+.nav-menu-page {
+    display: flex;
+    height: 100%;
+    margin-right: 1rem;
+    justify-content: flex-end;
+    background: none;
+    position: static;
+}
+
+.nav-menu-page li {
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-menu li {
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    display: block;
+    padding: 8px 0 8px 8px;
+}
+
+header nav a:hover {
+    transition: .7s;
+    background: none;
+    color: rgb(255, 103, 0);
+    text-decoration: underline;
+}
+
+header nav li:hover .submenu > li {
+    display: block;
+    top: 0;
+}
+
+header nav li:hover .submenu-page > li {
+    display: block;
+    top: 0;
+}
+
+.menu-icon {display: none;}
+
+/*-------------------------------------------------*/
+/* SUB MENU ------------------------------------- */
+/*-----------------------------------------------*/
+
+.submenu {
+    transition-delay: 1s;
+    display: flex;
+    flex-direction: column;
+    background: rgba(0,0,0,.6);
+    width: 230px;
+    /*border: 1px solid hotpink;*/
+}
+
+.submenu li {
+    display: none;
+    text-align: left;
+    margin-left: 0;
+}
+
+.submenu li a:hover {
+    transition: .7s;
+    background: rgb(255, 103, 0);
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+/*-----------------------------------------*/
+
+.submenu-page {
+    transition-delay: 1s;
+    display: flex;
+    flex-direction: column;
+    background: #000000;
+    width: 230px;
+    /*border: 1px solid hotpink;*/
+}
+
+.submenu-page li {
+    display: none;
+    text-align: left;
+    margin-left: 0;
+}
+
+.submenu-page li a:hover {
+    transition: .7s;
+    background: rgb(255, 103, 0);
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+
+
+.menu-icon {display: none;}
+
+/*-------------------------------------------------*/
+/* ABOVE THE FOLD ------------------------------- */
+/*-----------------------------------------------*/
+
+#idx-atf > div {height: 25vh;}
+
+/*-------------------------------------------------*/
+/* HEADINGS ------------------------------------- */
+/*-----------------------------------------------*/
+
+h1 {font-size: 3rem;}
+
+h2 {font-size: 1.9rem;}
+
+/*-------------------------------------------------*/
+/* BUTTON --------------------------------------- */
+/*-----------------------------------------------*/
+
+#hero-button {
+    width: 50%;
+    font-size: 1.3rem;
+    margin-top: 32px;
+}
+
+/*-------------------------------------------------*/
+/* FOOTER ----------------------------------------*/
+/*-----------------------------------------------*/
+
+footer {
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-nav-1 {flex-direction: row;}
+
+#footer-nav-2 {flex-direction: row;}
+
+#footer-nav-3 {
+    position: absolute;
+    right: 0;
+    width: 177px;
+}
+
+/* BEGIN FOOTER ICONS ------------------------------*/
+
+.facebook-icon-svg {font-size: .8rem;}
+
+.insta-icon-svg {font-size: .8rem;}
+
+.twitter-icon-svg {font-size: .8rem;}
+
+.youtube-icon-svg {font-size: .8rem;}
+
+/* END FOOTER ICONS --------------------------------*/
+
