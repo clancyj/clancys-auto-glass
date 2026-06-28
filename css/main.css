@@ -185,7 +185,7 @@ header #toggle:checked ~ .menu-icon #bar:after {
 
 h1 {
     font-family: 'Cantarell', sans-serif;
-    font-size: 1.28rem;
+    font-size: 1.2rem;
     color: #f5f5f5;
     padding-bottom: 15px;
 }
@@ -193,7 +193,7 @@ h1 {
 h2 {
     display: flex;
     font-family: 'Cantarell', sans-serif;
-    font-size: .86rem;
+    font-size: .84rem;
     color: #f5f5f5;
 }
 
